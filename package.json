@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "deploy": "gh-pages -d dist -b deploy && rm -rf dist",
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
